@@ -1,0 +1,121 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Matthias S. Treder": {},
+    "Ian Charest": {},
+    "Sebastian Michelmann": {},
+    "María Carmen Martín-Buro": {
+      "orcid": "0000-0003-0578-2825"
+    },
+    "Frédéric Roux": {},
+    "Fernando Carceller-Benito": {},
+    "Arturo Ugalde-Canitrot": {
+      "orcid": "0000-0003-4585-0271",
+      "affiliations": [
+        {
+          "name": "Epilepsy Monitoring Unit, Neurology and Clinical Neurophysiology Service, Hospital Universitario La Paz 28046 Madrid, Spain;"
+        },
+        {
+          "name": "School of Medicine, Universidad Francisco de Vitoria 28223 Madrid, Spain;"
+        }
+      ]
+    },
+    "David T. Rollings": {},
+    "Vijay Sawlani": {},
+    "Ramesh Chelvarajah": {},
+    "Maria Wimber": {},
+    "Simon Hanslmayr": {
+      "orcid": "0000-0003-4448-2147",
+      "affiliations": [
+        {
+          "name": "Institute of Neuroscience and Psychology, University of Glasgow, Glasgow G12 8QQ, United Kingdom;"
+        }
+      ]
+    },
+    "Bernhard P. Staresina": {
+      "orcid": "0000-0002-0558-9745",
+      "affiliations": [
+        {
+          "name": "School of Psychology and Centre for Human Brain Health, University of Birmingham, Birmingham B15 2TT, United Kingdom;"
+        },
+        {
+          "name": "Department of Experimental Psychology, University of Oxford, Oxford OX2 6GG, United Kingdom;"
+        },
+        {
+          "name": "Oxford Centre for Human Brain Activity, Wellcome Centre for Integrative Neuroimaging, Department of Psychiatry, University of Oxford, Oxford OX3 7JX, United Kingdom"
+        }
+      ]
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1073/pnas.2114171118",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1101/2020.05.20.104539",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000471",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000471",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "title": "Treder2021 hippocampal switchboard: epoched intracranial EEG during object/scene localiser and associative recall (extra-hippocampal channels)",
+  "license": "CC0-1.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "4.29 GB (67 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".m",
+    ".mat",
+    ".py",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "Epoched intracranial EEG from 11 epilepsy patients (22 recordings, about 9 hours of epochs at 200 Hz) recorded during an object/scene localiser task and an associative recall task. The data cover extra-hippocampal channels with anonymised labels and were repackaged from the authors' OSF release into BIDS. The dataset supports investigation of the hippocampus as a switchboard between perception and memory.",
+  "methods_description": "FieldTrip epoch structures from the authors' OSF release were converted to BrainVision float32 files, with trials written back-to-back and trial information stored as events. Recordings were intracranial EEG sampled at 200 Hz during localiser and associative recall tasks; preprocessing is described in the source article.",
+  "keywords": [
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "Hippocampus",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D006624"
+    },
+    {
+      "term": "episodic memory"
+    },
+    {
+      "term": "associative recall"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    },
+    {
+      "term": "object and scene perception"
+    }
+  ],
+  "source_hash": "d1d5f8bbaf1a5a2b0fc8ee18d6fbe5b54b5b7f5917a0c724299b993b386e4717"
+}

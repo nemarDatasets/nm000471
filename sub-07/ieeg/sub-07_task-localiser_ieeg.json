@@ -1,0 +1,27 @@
+{
+  "TaskName": "localiser",
+  "TaskDescription": "Localiser: object or scene cue words shown while the patient performed a perceptual categorisation (article); trialinfo: StimType (1 object cue, 2 scene cue per the authors' script PNAS_F3_B.m), Response, RT, Accuracy, RunNumber, TrialNumber.",
+  "Instructions": "n/a (see article)",
+  "PowerLineFrequency": 50,
+  "SoftwareFilters": {
+    "AuthorsPreprocessing": {
+      "Description": "Released as FieldTrip epochs at 200 Hz (single precision); preprocessing as described in the article (not in the release). Values written unchanged."
+    }
+  },
+  "HardwareFilters": "n/a",
+  "iEEGReference": "n/a (not stated in the release)",
+  "iEEGPlacementScheme": "intracranial depth electrodes implanted for epilepsy monitoring; the released channels are labelled channel01..N (anonymised; file name 'extraHIPP'). No coordinates or anatomical labels are released for these channels.",
+  "ElectricalStimulation": false,
+  "Manufacturer": "n/a",
+  "SamplingFrequency": 200.0,
+  "RecordingDuration": 2001.0,
+  "RecordingType": "epoched",
+  "EpochLength": 10.005,
+  "ECOGChannelCount": 0,
+  "SEEGChannelCount": 41,
+  "DBSChannelCount": 0,
+  "EEGChannelCount": 0,
+  "EMGChannelCount": 0,
+  "MiscChannelCount": 0,
+  "TriggerChannelCount": 0
+}

@@ -1,0 +1,51 @@
+{
+  "Name": "Treder2021 hippocampal switchboard: epoched intracranial EEG during object/scene localiser and associative recall (extra-hippocampal channels)",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "derivative",
+  "License": "CC0-1.0",
+  "Authors": [
+    "Matthias S. Treder",
+    "Ian Charest",
+    "Sebastian Michelmann",
+    "María Carmen Martín-Buro",
+    "Frédéric Roux",
+    "Fernando Carceller-Benito",
+    "Arturo Ugalde-Canitrot",
+    "David T. Rollings",
+    "Vijay Sawlani",
+    "Ramesh Chelvarajah",
+    "Maria Wimber",
+    "Simon Hanslmayr",
+    "Bernhard P. Staresina"
+  ],
+  "HowToAcknowledge": "Cite Treder MS, Charest I, Michelmann S, et al. (2021) The hippocampus as the switchboard between perception and memory. PNAS 118(50):e2114171118, doi:10.1073/pnas.2114171118, and the OSF release https://osf.io/kpxw9/.",
+  "ReferencesAndLinks": [
+    "https://doi.org/10.1073/pnas.2114171118",
+    "https://doi.org/10.1101/2020.05.20.104539",
+    "https://osf.io/kpxw9/"
+  ],
+  "Keywords": [
+    "intracranial EEG",
+    "hippocampus",
+    "episodic memory",
+    "associative recall",
+    "object",
+    "scene",
+    "epilepsy"
+  ],
+  "SourceDatasets": [
+    {
+      "URL": "https://osf.io/kpxw9/",
+      "Version": "OSF node kpxw9 'Treder_et_al_2021' (files as downloaded 2026-10-11; sha256 in sourcedata/osf-kpxw9/DEIDENTIFICATION_MANIFEST.tsv)"
+    }
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "o5c_A1_convert_lit169.py",
+      "Description": "Repackaging of the FieldTrip epoch structs (eeg.trial) into BrainVision float32, trials back-to-back, with eeg.trialinfo as events. Code in code/."
+    }
+  ],
+  "EthicsApprovals": [
+    "Collected under the source study's approval (see the article, doi:10.1073/pnas.2114171118)."
+  ]
+}

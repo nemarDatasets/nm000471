@@ -1,0 +1,38 @@
+{
+  "onset": {
+    "Description": "Start of the trial segment in this file (trials are written back-to-back)",
+    "Units": "s"
+  },
+  "duration": {
+    "Description": "Length of the trial segment",
+    "Units": "s"
+  },
+  "sample": {
+    "Description": "First sample of the trial segment in the file (0-based)"
+  },
+  "trial_index": {
+    "Description": "Trial number in the released file (1-based, release order)"
+  },
+  "trial_time_start": {
+    "Description": "Authors' time axis value of the first sample of the trial (s, relative to the trial's event; n/a if not released)",
+    "Units": "s"
+  },
+  "Accuracy": {
+    "Description": "eeg.trialinfo.Accuracy as released"
+  },
+  "RT": {
+    "Description": "eeg.trialinfo.RT as released"
+  },
+  "Response": {
+    "Description": "eeg.trialinfo.Response as released"
+  },
+  "RunNumber": {
+    "Description": "eeg.trialinfo.RunNumber as released"
+  },
+  "StimType": {
+    "Description": "eeg.trialinfo.StimType as released"
+  },
+  "TrialNumber": {
+    "Description": "eeg.trialinfo.TrialNumber as released"
+  }
+}

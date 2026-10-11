@@ -1,0 +1,5 @@
+{
+  "iEEGCoordinateSystem": "Other",
+  "iEEGCoordinateUnits": "n/a",
+  "iEEGCoordinateSystemDescription": "No electrode coordinates or anatomical labels are released for the iEEG channels (anonymised names channel01..N; the file names say 'extraHIPP'). x, y, z = n/a."
+}

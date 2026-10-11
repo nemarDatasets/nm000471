@@ -1,0 +1,27 @@
+{
+  "TaskName": "recall",
+  "TaskDescription": "Associative recall: after learning word-picture (object/scene) pairs, cue words were shown and the patient recalled the associated picture (article); trialinfo: Memory (R remembered / F forgot), ObjectProbe, Response, RT, ExpPhase, RunNumber, TrialNumber.",
+  "Instructions": "n/a (see article)",
+  "PowerLineFrequency": 50,
+  "SoftwareFilters": {
+    "AuthorsPreprocessing": {
+      "Description": "Released as FieldTrip epochs at 200 Hz (single precision); preprocessing as described in the article (not in the release). Values written unchanged."
+    }
+  },
+  "HardwareFilters": "n/a",
+  "iEEGReference": "n/a (not stated in the release)",
+  "iEEGPlacementScheme": "intracranial depth electrodes implanted for epilepsy monitoring; the released channels are labelled channel01..N (anonymised; file name 'extraHIPP'). No coordinates or anatomical labels are released for these channels.",
+  "ElectricalStimulation": false,
+  "Manufacturer": "n/a",
+  "SamplingFrequency": 200.0,
+  "RecordingDuration": 1840.92,
+  "RecordingType": "epoched",
+  "EpochLength": 10.005,
+  "ECOGChannelCount": 0,
+  "SEEGChannelCount": 27,
+  "DBSChannelCount": 0,
+  "EEGChannelCount": 0,
+  "EMGChannelCount": 0,
+  "MiscChannelCount": 0,
+  "TriggerChannelCount": 0
+}

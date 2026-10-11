@@ -1,0 +1,20 @@
+# Treder et al. 2021, "The hippocampus as the switchboard between perception and memory": intracranial EEG epochs
+
+Epoched intracranial EEG from 11 patients (22 recordings, 9.03 h of epochs, 200 Hz) during an object/scene
+localiser task and an associative recall task, released by the authors on OSF (https://osf.io/kpxw9/, CC0) with the MATLAB
+scripts that reproduce the PNAS figures.
+
+## What is converted (DatasetType derivative)
+- `sub-XX/ieeg/sub-XX_task-localiser_ieeg.vhdr` and `..._task-recall_ieeg.vhdr`: the released `s<NN>_<task>_EEG_extraHIPP.mat`
+  FieldTrip epochs (single precision, 200 Hz), written back-to-back with one `New Segment` marker per trial; `events.tsv` has
+  each trial's position in the file, the authors' time axis start (-2 s) and every `trialinfo` field as released.
+- Channel names are the released anonymised labels `channel01..N`; no coordinates or anatomical labels are released for them
+  (`electrodes.tsv` with n/a coordinates). Per the file names these are the extra-hippocampal channels; the hippocampal data of
+  the release are time-frequency power only (`*_recall_TFR_HIPP.mat`, derived, not converted; listed in
+  `sourcedata/osf-kpxw9/NOT_COPIED_release_files.tsv` together with the scalp-EEG experiment files of `sharing/EEG/`).
+- Signal units are not stated in the release (`units` = n/a; values unchanged). Preprocessing is described in the article.
+- `sourcedata/osf-kpxw9/`: the converted MAT files, the authors' scripts and auxiliary files, unchanged.
+- Age and sex are not in the release.
+
+## Privacy
+Channel names are anonymised by the authors; files hold trial numbers, responses and reaction times only.

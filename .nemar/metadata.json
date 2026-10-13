@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Treder2021 hippocampal switchboard: epoched intracranial EEG during object/scene localiser and associative recall (extra-hippocampal channels)",
+  "description": "Epoched intracranial EEG from 11 epilepsy patients (22 recordings, about 9 hours of epochs at 200 Hz) recorded during an object/scene localiser task and an associative recall task. The data comprise the extra-hippocampal channels released by the authors on OSF, repackaged into BIDS-compatible BrainVision files with trial-level event information. The dataset supports investigation of the hippocampus as a switchboard between perception and memory.",
+  "methods_description": "FieldTrip epoch structures (single precision, 200 Hz, time axis starting at -2 s) were rewritten as BrainVision float32 files with trials concatenated back-to-back and one New Segment marker per trial. The trialinfo fields were converted to events.tsv. Channel labels are anonymised and no coordinates or units are provided.",
+  "license": "CC0-1.0",
+  "dataset_type": "derivative",
   "authors": {
     "Matthias S. Treder": {},
     "Ian Charest": {},
@@ -48,51 +53,6 @@
       ]
     }
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.1073/pnas.2114171118",
-      "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.1101/2020.05.20.104539",
-      "identifier_type": "DOI",
-      "relation_type": "References"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/nm000471",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataset/nm000471",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "title": "Treder2021 hippocampal switchboard: epoched intracranial EEG during object/scene localiser and associative recall (extra-hippocampal channels)",
-  "license": "CC0-1.0",
-  "dataset_type": "derivative",
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "ieeg"
-  ],
-  "resource_type_specific": "iEEG Dataset",
-  "sizes": [
-    "4.29 GB (67 files)"
-  ],
-  "formats": [
-    ".eeg",
-    ".json",
-    ".m",
-    ".mat",
-    ".py",
-    ".tsv",
-    ".vhdr",
-    ".vmrk"
-  ],
-  "description": "Epoched intracranial EEG from 11 epilepsy patients (22 recordings, about 9 hours of epochs at 200 Hz) recorded during an object/scene localiser task and an associative recall task. The data cover extra-hippocampal channels with anonymised labels and were repackaged from the authors' OSF release into BIDS. The dataset supports investigation of the hippocampus as a switchboard between perception and memory.",
-  "methods_description": "FieldTrip epoch structures from the authors' OSF release were converted to BrainVision float32 files, with trials written back-to-back and trial information stored as events. Recordings were intracranial EEG sampled at 200 Hz during localiser and associative recall tasks; preprocessing is described in the source article.",
   "keywords": [
     {
       "term": "intracranial EEG"
@@ -117,5 +77,47 @@
       "term": "object and scene perception"
     }
   ],
-  "source_hash": "d1d5f8bbaf1a5a2b0fc8ee18d6fbe5b54b5b7f5917a0c724299b993b386e4717"
+  "related_identifiers": [
+    {
+      "identifier": "10.1073/pnas.2114171118",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1101/2020.05.20.104539",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000471",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000471",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "sizes": [
+    "4.29 GB (67 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".m",
+    ".mat",
+    ".md",
+    ".py",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "source_hash": "1e7e6a3a3ffef8913a3585f9503ad7bc9b9f2c7d08d0a1389e1205c04c11f879"
 }

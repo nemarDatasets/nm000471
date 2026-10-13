@@ -47,5 +47,7 @@
   ],
   "EthicsApprovals": [
     "Collected under the source study's approval (see the article, doi:10.1073/pnas.2114171118)."
-  ]
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000471",
+  "Version": "1.0.0"
 }

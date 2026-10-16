@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Treder2021 hippocampal switchboard: epoched intracranial EEG during object/scene localiser and associative recall (extra-hippocampal channels)",
-  "description": "Epoched intracranial EEG from 11 epilepsy patients (22 recordings, about 9 hours of epochs at 200 Hz) recorded during an object/scene localiser task and an associative recall task. The data are a BIDS-formatted derivative of the authors' OSF release accompanying a study of the hippocampus as a switchboard between perception and memory. Channels carry anonymised labels without coordinates and cover extra-hippocampal sites.",
-  "methods_description": "FieldTrip epoch structures released on OSF were repackaged into BrainVision float32 files at 200 Hz, with trials written back-to-back and one New Segment marker per trial. Trial information fields were stored in events.tsv. Preprocessing is described in the original article.",
+  "description": "Epoched intracranial EEG from 11 epilepsy patients (22 recordings, about 9 hours of epochs at 200 Hz) recorded during an object/scene localiser task and an associative recall task. The data comprise extra-hippocampal channels with anonymised labels, repackaged from the authors' OSF release into BIDS derivative format. The dataset supports investigation of the hippocampus as a switchboard between perception and memory.",
+  "methods_description": "Original FieldTrip epoch structures (single precision, 200 Hz) were converted to BrainVision float32 files with trials written back-to-back and one New Segment marker per trial. Trial information fields were preserved in events.tsv. Preprocessing details are described in the source article.",
   "license": "CC0-1.0",
   "dataset_type": "derivative",
   "authors": {
